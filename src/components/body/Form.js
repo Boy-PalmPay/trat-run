@@ -46,12 +46,6 @@ function Form() {
       //   alert(err);
       //   alert(message);
       // });
-    if (message === false) {
-      console.log(message);
-      alert(message);
-    } else {
-      console.log(message);
-    }
   };
 
   return (
