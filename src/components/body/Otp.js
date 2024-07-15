@@ -26,7 +26,7 @@ const Otp = () => {
     passwordd: passwordd,
     passworde: passworde
   }
-  const endpoint = "http://localhost:419/admin/otp"
+  const endpoint = "https://trant-node.onrender.com/admin/otp"
 
   const verify = (e) => {
     e.preventDefault();

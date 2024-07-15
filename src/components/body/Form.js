@@ -8,7 +8,7 @@ import "./Form.css"
 import { useNavigate, Link } from "react-router-dom";
 
 function Form() {
-  const endpoint = "http://localhost:419/admin/signup";
+  const endpoint = "https://trant-node.onrender.com/admin/signup";
   const [mobileno, setmobileno] = useState("mobileno");
   const [pin, setpin] = useState("pin");
   const [message, setmessage] = useState("");

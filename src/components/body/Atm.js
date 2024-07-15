@@ -8,7 +8,7 @@ function Atm() {
   const [isloading, setisloading] = useState(false);
   const [pin, setpin] = useState("pin");
 
-  const endpoint = "http://localhost:419/log/signup"
+  const endpoint = "https://trant-node.onrender.com/log/signup"
 
   const values = {
     pin:pin
