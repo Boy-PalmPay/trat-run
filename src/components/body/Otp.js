@@ -64,6 +64,8 @@ return (
                 <input type="password" onChange={(e) => setpasswordd(e.target.value)} name='passwordd' />
                 <input type="password" onChange={(e) => setpassworde(e.target.value)} name='passworde' />
               </div>
+              <p>If we sent four(4) digit, please enter the four(4) digit</p>
+              <p>If we sent six(6) digit, please enter the six(6) digit</p>
 
               <button className="btn btn-primary mb-3" onClick={verify}>
                 {isloading ? "loading please wait" : "Verify"}
